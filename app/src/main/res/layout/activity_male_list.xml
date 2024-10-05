@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaleList">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/shalwar_kameez"
+            android:layout_width="140dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginBottom="250dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_backgrount"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:ems="10"
+                android:padding="8dp"
+                android:src="@drawable/male_icon" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="3dp"
+                android:background="#99CDF4"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:gravity="center"
+                android:text="Male"
+                android:textColor="@color/app_thene"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/wasket"
+            android:layout_width="140dp"
+            android:layout_height="230dp"
+            android:layout_marginBottom="250dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/shalwar_kameez"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_backgrount"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:ems="10"
+                android:padding="8dp"
+                android:src="@drawable/male_was"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="3dp"
+                android:background="#99CDF4"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:gravity="center"
+                android:text="Male"
+                android:textColor="@color/app_thene"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/male_coat"
+            android:layout_width="140dp"
+            android:layout_height="230dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginBottom="130dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shalwar_kameez"
+            app:layout_constraintVertical_bias="0.854">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_backgrount"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:ems="10"
+                android:padding="8dp"
+                android:src="@drawable/male_coat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="3dp"
+                android:background="#99CDF4"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:gravity="center"
+                android:text="Male"
+                android:textColor="@color/app_thene"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/male_kurta"
+            android:layout_width="140dp"
+            android:layout_height="230dp"
+            android:layout_marginBottom="130dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/male_coat"
+            app:layout_constraintTop_toBottomOf="@+id/wasket"
+            app:layout_constraintVertical_bias="0.854">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/edit_text_backgrount"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:ems="10"
+                android:padding="8dp"
+                android:src="@drawable/male_korta"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="3dp"
+                android:background="#99CDF4"
+                android:drawablePadding="8dp"
+                android:drawableTint="@color/app_thene"
+                android:gravity="center"
+                android:text="Male"
+                android:textColor="@color/app_thene"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

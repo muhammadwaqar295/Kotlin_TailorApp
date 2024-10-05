@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "830203755441",
+    "project_id": "tailerapp-cadca",
+    "storage_bucket": "tailerapp-cadca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830203755441:android:2369d97d9aa0ba34ef5b90",
+        "android_client_info": {
+          "package_name": "com.example.tailerapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYN-2TBoU7KlHbUQ1YGIjjQuu0O67wDd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
